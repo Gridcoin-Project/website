@@ -10,7 +10,7 @@ body {
 }
 .mbr-section-title {
   font-style: normal;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 .mbr-section-subtitle {
   line-height: 1.3;
@@ -19,36 +19,48 @@ body {
   font-style: normal;
   line-height: 1.6;
 }
+.heading-1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 8rem;
+}
+.subheading-1 {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 2.5rem;
+}
+.subheading-2 {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 1.8rem;
+} 
 .display-1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 5.8rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -79,6 +91,21 @@ body {
     font-size: 1.2rem;
     font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
     line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .heading-1 {
+    font-size: 7rem;
+    font-size: calc( 5rem + (8 - 5) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2rem + (4.25 - 2) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .subheading-1 {
+    font-size: 2.2rem;
+    font-size: calc( 1.5rem + (2.8 - 1.5) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.5rem + (3 - 1.5) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .subheading-2 {
+    font-size: 2.0rem;
+    font-size: calc( 1.4rem + (1.6 - 1.4) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (3 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -129,7 +156,7 @@ body {
   border-radius: 3px;
 }
 .bg-primary {
-  background-color: #149dcc !important;
+  background-color: #15669e !important;
 }
 .bg-success {
   background-color: #f7ed4a !important;
@@ -145,17 +172,17 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #149dcc;
-  border-color: #149dcc;
-  color: #ffffff;
+  background-color: #ffffff;
+  border-color: #5d13a9;
+  color: #5d13a9;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff;
-  background-color: #0d6786;
-  border-color: #0d6786;
+  background-color: #5d13a9;
+  border-color: #ffffff;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
@@ -317,14 +344,14 @@ body {
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #149dcc;
-  border-color: #149dcc;
+  background-color: #15669e;
+  border-color: #15669e;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #149dcc !important;
-  border-color: #149dcc !important;
+  background-color: #15669e !important;
+  border-color: #15669e !important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
@@ -461,7 +488,7 @@ body {
   border-color: #ffffff;
 }
 .text-primary {
-  color: #149dcc !important;
+  color: #15669e !important;
 }
 .text-secondary {
   color: #ff3366 !important;
@@ -529,8 +556,8 @@ a.text-black:focus {
   background-color: #b1a374;
 }
 .mbr-gallery-filter li.active .btn {
-  background-color: #149dcc;
-  border-color: #149dcc;
+  background-color: #15669e;
+  border-color: #15669e;
   color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
@@ -544,7 +571,7 @@ a.text-black:focus {
 }
 a,
 a:hover {
-  color: #149dcc;
+  color: #15669e;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
@@ -635,7 +662,7 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
@@ -661,12 +688,22 @@ a:hover {
   top: 0;
   z-index: 0;
 }
+.testimonials-overlay {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
 blockquote {
   font-style: italic;
   padding: 10px 0 10px 20px;
   font-size: 1.09rem;
   position: relative;
-  border-color: #149dcc;
+  border-color: #15669e;
   border-width: 3px;
 }
 ul,
@@ -715,7 +752,7 @@ pre {
   text-align: center;
   position: relative;
   border: 2px solid #c0a375;
-  border-color: #149dcc;
+  border-color: #15669e;
   color: #232323;
   cursor: pointer;
 }
@@ -726,7 +763,7 @@ pre {
 }
 .btn-social:hover {
   color: #fff;
-  background: #149dcc;
+  background: #15669e;
 }
 .btn-social + .btn {
   margin-left: .1rem;
@@ -734,11 +771,11 @@ pre {
 /* Footer */
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #149dcc;
+  background: #15669e;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #149dcc;
+  color: #15669e;
 }
 /* Headers*/
 .offset-1 {
@@ -1281,7 +1318,7 @@ body {
   min-height: 100vh;
 }
 .cid-qCW2wLrXs4 {
-  background-image: url("../../../assets/images/dna-background-7-2000x1491.jpg");
+  background-image: url("../../../assets/images/telescope.jpg");
 }
 .cid-qCW2wLrXs4 h1 {
   color: #616161;
@@ -1295,13 +1332,17 @@ body {
   font-style: italic;
 }
 .cid-qCW2wLrXs4 H1 {
-  color: #232323;
+  line-height:70%;
+  color: #5d13a9;
+  text-shadow: 3px 3px 0px #ffffff;
 }
 .cid-qCW2wLrXs4 SPAN {
   color: #232323;
 }
 .cid-qCW2wLrXs4 P {
-  color: #465052;
+  line-height:50%;
+  color: #15669e;
+  text-shadow: 1.5px 1.5px 0px #ffffff;
 }
 .cid-qCW4CjBXAa .navbar {
   background: #ffffff;
@@ -1713,7 +1754,7 @@ body {
 .cid-qCWey2XQ5m {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dna-background-8-2000x1491.jpg");
+  background-image: url("../../../assets/images/Microscope.jpg");
 }
 .cid-qCWey2XQ5m h2 {
   text-align: center;
@@ -1863,14 +1904,15 @@ body {
 }
 .cid-qCZP0vx3jH .mbr-text {
   color: #767676;
-  text-align: left;
+  font-style:italic;
+  text-align: left;  
 }
 .cid-qCZP0vx3jH .mbr-author-desc {
   display: block;
   color: #767676;
 }
 .cid-qCZP0vx3jH .mbr-author-name {
-  color: #465052;
+  color: #5d13a9;
 }
 .cid-qCZP0vx3jH .mbr-testimonial .panel-item {
   background-color: #ffffff;
@@ -2027,7 +2069,7 @@ body {
 .cid-qD7yAEXsq7 {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dna-background-8-2000x1491.jpg");
+  background-image: url("../../../assets/images/Microscope.jpg");
 }
 .cid-qD7yAEXsq7 H1 {
   color: #232323;
@@ -2652,7 +2694,7 @@ body {
 .cid-qD7z3MsYWj {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dna-background-8-2000x1491.jpg");
+  background-image: url("../../../assets/images/Microscope.jpg");
 }
 .cid-qD7z3MsYWj H1 {
   color: #232323;
@@ -2718,6 +2760,7 @@ body {
 .cid-qD7QVzVkK8 .mbr-section-title {
   color: #232323;
   text-align: left;
+  font-size: 5rem;
 }
 .cid-qD7QVzVkK8 .mbr-text,
 .cid-qD7QVzVkK8 .mbr-section-btn {
@@ -3263,7 +3306,7 @@ body {
 .cid-qD7z5Mdw7v {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dna-background-8-2000x1491.jpg");
+  background-image: url("../../../assets/images/Microscope.jpg");
 }
 .cid-qD7z5Mdw7v H1 {
   color: #232323;
@@ -3910,7 +3953,7 @@ body {
 .cid-qD0aVLqQ7h {
   padding-top: 135px;
   padding-bottom: 135px;
-  background-image: url("../../../assets/images/dna-background-8-2000x1491.jpg");
+  background-image: url("../../../assets/images/Microscope.jpg");
 }
 .cid-qD0aVLqQ7h H1 {
   color: #232323;
@@ -3952,9 +3995,10 @@ body {
   line-height: 20px;
   transition: all .2s;
   color: #ffffff;
-  background: #149dcc;
+  background: #55b4d4;
   width: 25px;
   height: 25px;
+  box-shadow: 1px 2px 0px #5d13a9;
   border-radius: 50%;
   content: '✓';
 }
@@ -3990,9 +4034,10 @@ body {
   line-height: 20px;
   transition: all .2s;
   color: #ffffff;
-  background: #149dcc;
+  background: #55b4d4;
   width: 25px;
   height: 25px;
+  box-shadow: 1px 2px 0px #5d13a9;
   border-radius: 50%;
   content: '✓';
 }
@@ -4028,9 +4073,10 @@ body {
   line-height: 20px;
   transition: all .2s;
   color: #ffffff;
-  background: #149dcc;
+  background: #55b4d4;
   width: 25px;
   height: 25px;
+  box-shadow: 1px 2px 0px #5d13a9;
   border-radius: 50%;
   content: '✓';
 }
@@ -4066,9 +4112,10 @@ body {
   line-height: 20px;
   transition: all .2s;
   color: #ffffff;
-  background: #149dcc;
+  background: #55b4d4;
   width: 25px;
   height: 25px;
+  box-shadow: 1px 2px 0px #5d13a9;
   border-radius: 50%;
   content: '✓';
 }
@@ -4104,9 +4151,10 @@ body {
   line-height: 20px;
   transition: all .2s;
   color: #ffffff;
-  background: #149dcc;
+  background: #55b4d4;
   width: 25px;
   height: 25px;
+  box-shadow: 1px 2px 0px #5d13a9;
   border-radius: 50%;
   content: '✓';
 }
@@ -4142,9 +4190,10 @@ body {
   line-height: 20px;
   transition: all .2s;
   color: #ffffff;
-  background: #149dcc;
+  background: #55b4d4;
   width: 25px;
   height: 25px;
+  box-shadow: 1px 2px 0px #5d13a9;
   border-radius: 50%;
   content: '✓';
 }
@@ -4731,7 +4780,7 @@ body {
 .cid-qD1XToJMwP {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dna-background-8-2000x1491.jpg");
+  background-image: url("../../../assets/images/Microscope.jpg");
 }
 .cid-qD1XToJMwP H1 {
   color: #232323;
@@ -5512,7 +5561,7 @@ body {
 .cid-qD1XXEfkX8 {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dna-background-2000x1491.jpg");
+  background-image: url("../../../assets/images/Team Banner.jpg");
 }
 .cid-qD1XXEfkX8 H1 {
   color: #232323;
@@ -5525,7 +5574,7 @@ body {
 .cid-qDcCLxQpQk {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/mbr-1-1620x1080.jpg");
+  background-image: url("../../../assets/images/Team.jpg");
 }
 .cid-qDcCLxQpQk .testimonials-container {
   margin: 0 auto;
@@ -6067,7 +6116,7 @@ body {
 .cid-qD7ADVRCwh {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dna-background-8-2000x1491.jpg");
+  background-image: url("../../../assets/images/Microscope.jpg");
 }
 .cid-qD7ADVRCwh H1 {
   color: #232323;
@@ -6116,9 +6165,10 @@ body {
   line-height: 40px;
   transition: all .2s;
   color: #ffffff;
-  background: #149dcc;
+  background: #55b4d4;
   width: 40px;
   height: 40px;
+  box-shadow: 1px 2px 0px #5d13a9;
   border-radius: 50%;
 }
 .cid-qEjCDUoYNL {
@@ -6541,9 +6591,10 @@ body {
   line-height: 40px;
   transition: all .2s;
   color: #ffffff;
-  background: #149dcc;
+  background: #55b4d4;
   width: 40px;
   height: 40px;
+  box-shadow: 1px 2px 0px #5d13a9;
   border-radius: 50%;
 }
 .cid-qEx3vQMBoU {
